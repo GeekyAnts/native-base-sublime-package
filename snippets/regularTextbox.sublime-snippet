@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+<InputGroup borderType="regular">
+	<Input placeholder="Type your text here$1"/>
+</InputGroup>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>regularTextbox</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,18 @@
+<snippet>
+	<content><![CDATA[
+<Header searchBar rounded>
+	<InputGroup>
+		<Icon name="$1" />
+		<Input placeholder="Search$2" />
+		<Icon name="ios-people$3">
+		</InputGroup>
+		<Button transparent>
+			Search$4
+		</Button>
+	</Header>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>searchbar</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

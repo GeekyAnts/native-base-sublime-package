@@ -1,0 +1,14 @@
+<snippet>
+	<content><![CDATA[
+<List dataArray={$1} renderRow={($2) =>
+	<ListItem>
+		<Text>$3</Text>
+	</ListItem>
+	}>
+</List>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>listDynamic</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

@@ -1,0 +1,24 @@
+<snippet>
+	<content><![CDATA[
+<DeckSwiper dataSource={$1} renderItem={$2 =>
+	<Card>
+		<CardItem>
+			<Thumbnail source={$3}>
+			<Text></Text>
+			<Text note><Text>
+		</CardItem>
+		<CardItem>
+			<Image source={$4} />
+		</CardItem>
+		<CardItem>
+			<Icon name="$5" />
+			<Text></Text>
+		</CardItem>
+	</Card>
+/>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>deckSwiper</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
