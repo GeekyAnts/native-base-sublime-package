@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+<List>
+	<ListItem iconLeft>
+		<Icon name="$1" />
+		<Text>$2</Text>
+		<Text note>$3</Text>
+	</ListItem>
+</List>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>listIcon</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

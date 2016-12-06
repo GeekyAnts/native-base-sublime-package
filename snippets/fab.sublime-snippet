@@ -1,0 +1,26 @@
+<snippet>
+	<content><![CDATA[
+<Fab
+	active={$1}
+	direction="up"
+	containerStyle={{$2}}
+	position="bottomRight"
+	onPress={() => $3}
+>
+	<Icon name="$4" />
+	<Button>
+		<Icon name="$5" />
+	</Button>
+	<Button>
+		<Icon name="$6" />
+	</Button>
+	<Button>
+		<Icon name="$7" />
+	</Button>
+</Fab>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>fab</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

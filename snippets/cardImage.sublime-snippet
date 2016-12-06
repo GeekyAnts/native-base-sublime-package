@@ -1,0 +1,23 @@
+<snippet>
+	<content><![CDATA[
+<Card>
+	<CardItem>
+		<Thumbnail source={$1} />
+		<Text></Text>
+		<Text note></Text>
+    </CardItem>
+    <CardItem>
+    	<Image source={} />
+    </CardItem>
+    <CardItem>
+    	<Button transparent>
+    	
+    	</Button>
+	</CardItem>
+</Card>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>cardImage</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>

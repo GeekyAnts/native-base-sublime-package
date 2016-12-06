@@ -1,0 +1,12 @@
+<snippet>
+	<content><![CDATA[
+<InputGroup>
+	<Icon name="$1" />
+	<Input placeholder="Type your text here$2"/>
+</InputGroup>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>iconTextbox</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
