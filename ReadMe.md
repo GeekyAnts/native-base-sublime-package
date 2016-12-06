@@ -1,1 +1,1 @@
-# NativeBase snippets for Sublime.
+# NativeBase snippets for Sublime
