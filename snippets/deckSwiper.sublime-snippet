@@ -3,9 +3,9 @@
 <DeckSwiper dataSource={$1} renderItem={$2 =>
 	<Card>
 		<CardItem>
-			<Thumbnail source={$3}>
+			<Thumbnail source={$3} />
 			<Text></Text>
-			<Text note><Text>
+			<Text note></Text>
 		</CardItem>
 		<CardItem>
 			<Image source={$4} />

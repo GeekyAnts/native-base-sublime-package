@@ -4,12 +4,12 @@
 	<InputGroup>
 		<Icon name="$1" />
 		<Input placeholder="Search$2" />
-		<Icon name="ios-people$3">
-		</InputGroup>
-		<Button transparent>
-			Search$4
-		</Button>
-	</Header>
+		<Icon name="ios-people$3" />
+	</InputGroup>
+	<Button transparent>
+		Search$4
+	</Button>
+</Header>
 ]]></content>
 	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
 	<tabTrigger>searchbar</tabTrigger>

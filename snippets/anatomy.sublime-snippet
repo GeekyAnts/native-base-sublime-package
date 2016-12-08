@@ -1,0 +1,43 @@
+<snippet>
+	<content><![CDATA[
+<Container>
+	<Header>
+		<Button>
+			<Icon name="$1"/>
+		</Button>
+		<Title>$2</Title>
+		<Button>
+			<Icon name="$3" />
+		</Button>
+	</Header>
+
+	<Content>
+	</Content>
+
+	<Footer>
+		<FooterTab>
+			<Button>
+				$4
+				<Icon name="$5" />
+			</Button>
+			<Button>
+				$6
+				<Icon name="$7" />
+			</Button>
+			<Button>
+				$8
+				<Icon name="$9" />
+			</Button>
+			<Button>
+				$10
+				<Icon name="$11" />
+			</Button>
+		</FooterTab>
+	</Footer>
+</Container>
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>anatomy</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<scope>source.js</scope>
+</snippet>
